@@ -28,6 +28,12 @@ body {
   font-size: 20px;
 }
 
+.open-btn {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
 .list {
   list-style-type: none;
   padding: 0;
