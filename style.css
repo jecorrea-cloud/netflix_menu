@@ -70,7 +70,7 @@ body {
 }
 
 .nav-white {
-  background-color: #fff;
+  background-color: white;
   width: 95%;
   padding: 40px;
   position: relative;
@@ -79,6 +79,13 @@ body {
 
 .nav-white.visible {
   transition-delay: 0.4s;
+}
+
+.close-btn {
+  opacity: 0.3;
+  position: absolute;
+  top: 40px;
+  right: 30px;
 }
 
 .list {
@@ -95,4 +102,9 @@ body {
   font-size: 14px;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.list ul {
+  list-style-type: none;
+  padding-left: 20px;
 }
